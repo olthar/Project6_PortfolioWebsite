@@ -2,7 +2,8 @@ extends layout
 
 block content
   section.desk
-    h1= `${error.message} - Status: ${error.status}`
+    h1= `OH NO, ${error.message} - Status: ${error.status}.`
+    h3= `Click the button below to go home`
     a.button-error(href='/') Go Home
     .error
       pre.stack-trace= error.stack
