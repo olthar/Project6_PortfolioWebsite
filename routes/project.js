@@ -20,7 +20,11 @@ router.get('/:id', (req, res) => {
     const { image_urls } = projects[id];
     const templateData = { id, project_name, description, technologies, live_link, github_link, image_urls };
     
+    
+
     res.render('project', templateData);    
 });
+
+
 
 module.exports = router;
