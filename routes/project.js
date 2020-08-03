@@ -9,7 +9,7 @@ router.get( '/', ( req, res ) => {
     res.redirect( `/project/${projectID}` )
   });
 
-  //Based on the ID of the project from the url a project is displayed. 
+//Based on the ID of the project from the url a project is displayed. 
 router.get('/:id', (req, res) => {
     const { id } = req.params;
     const { project_name } = projects[id];

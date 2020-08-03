@@ -20,6 +20,7 @@ app.use((req, res, next) => {
     next(err);
   });
   
+  //Error handling using the error view
   app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
