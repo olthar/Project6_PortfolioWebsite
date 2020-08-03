@@ -10,4 +10,4 @@ Using Node.js and Express to:
 - Handle errors
 - Set up a server to serve the project
 
-CSS changes to, colour, BG colour, buttons, button animation. 
+CSS changes to, colour, BG colour on side bar, buttons, button animation. 
